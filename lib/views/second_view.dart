@@ -28,7 +28,6 @@ class UserDetailView extends StatelessWidget {
             padding: const EdgeInsets.all(16.0),
             child: ConstrainedBox(
               constraints: BoxConstraints(minHeight: constraints.maxHeight),
-              child: IntrinsicHeight(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
@@ -98,7 +97,6 @@ class UserDetailView extends StatelessWidget {
                     })),
                   ],
                 ),
-              ),
             ),
           );
         },
